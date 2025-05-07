@@ -1,16 +1,7 @@
-# This is a sample Python script.
+from biblioteca import Pessoa
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+aluno01 = Pessoa("Júlia", 55, 18)
+aluno02 = Pessoa("Lucas", 67, 19)
+aluno03 = Pessoa("João", 52, 18)
+aluno04 = Pessoa("Gustavo", 80, 26)
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
