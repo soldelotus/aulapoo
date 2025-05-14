@@ -1,7 +1,6 @@
-from biblioteca import Pessoa
+from biblioteca import *
 
-aluno01 = Pessoa("Júlia", 55, 18)
-aluno02 = Pessoa("Lucas", 67, 19)
-aluno03 = Pessoa("João", 52, 18)
-aluno04 = Pessoa("Gustavo", 80, 26)
+# aluno01 = Pessoa("Júlia", 55, 18)
 
+gato01 = Gato("Safira", "branca com marrom")
+gato01.miar()
