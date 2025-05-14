@@ -108,5 +108,27 @@ class Vip(Ingresso):
 
 # --------------Exercício 02----------------
 
+class Forma():
+    def __init__(self):
+        self.area = 0
+        self.perimetro = 0
 
+class Retangulo(Forma):
+    def __init__(self):
+        super().__init__()
 
+    def calcularArea(self):
+
+    def calcularPerimetro(self):
+
+class Triangulo(Forma):
+    def __init__(self):
+        super().__init__()
+        self.altura = 0
+
+    def calcularArea(self):
+        area = (self.base * self.altura) / 2
+        print(f"A área do triângulo é {area}")
+
+    def calcularPerimetro(self):
+        
